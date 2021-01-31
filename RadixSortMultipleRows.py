@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Jan  4 10:40:13 2021
-
-@author: beyza
-"""
 import sys
 import time
 import random
@@ -60,11 +55,3 @@ for i in A:
     
 infile.close()
 print("--- %s seconds ---" % (time.time() - start_time))
-
-
-
-
-
-
-
-
