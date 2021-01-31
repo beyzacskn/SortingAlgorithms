@@ -26,4 +26,6 @@ def insertionSort(array):
         array[j+1] = key
     return array
 
+data = insertionSort(data)
+printArray(data)
 print("--- %s seconds ---" % (time.time() - start_time))
