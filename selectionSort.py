@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Jan 31 13:05:39 2021
-
-@author: beyza
-"""
 import sys
 import time
 import random 
