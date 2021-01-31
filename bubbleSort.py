@@ -18,7 +18,7 @@ def bubbleSort(array):
                 array[j], array[j+1] = array[j+1], array[j]
     return array
 
-with open('C://Users//beyza//Desktop//metin_dosyasi.txt', 'r') as infile:
+with open('C://Users//beyza//Desktop//numbers.txt', 'r') as infile:
     data = infile.readlines()
     for i in data:
         lines=i.split(',')
@@ -28,7 +28,7 @@ def matrix(file):
     contents = open(file).read()
     return [list(map(int, line.split(','))) for line in contents.split('\n')]
  
-A=matrix('C://Users//beyza//Desktop//metin_dosyasi.txt')
+A=matrix('C://Users//beyza//Desktop//numbers.txt')
 
 for i in A:
     print ("Before sorting:",i)
