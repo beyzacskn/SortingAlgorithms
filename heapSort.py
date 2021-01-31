@@ -12,7 +12,6 @@ start_time = time.time()
 
 data= [12, 6, 2, 5, 11, 4, 8, 1]
 
-
 def printArray(array):
     for i in range(len(array)):
         print(array[i])
