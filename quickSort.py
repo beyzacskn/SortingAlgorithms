@@ -9,9 +9,8 @@ import time
 import random
 
 start_time = time.time()
+
 data= [12, 6, 2, 5, 11, 4, 8, 1]
-
-
 def printArray(array):
     for i in range(len(array)):
         print(array[i])
@@ -37,4 +36,5 @@ def quickSort(array, low, high):
     return array
 
 data = quickSort(data,0,len(data)-1)
+printArray(data)
 print("--- %s seconds ---" % (time.time() - start_time))
